@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-display: "Monsterrat";
+}
+
+.snap {
+  scroll-snap-type: y mandatory;
+}
+
+.snap-content {
+  scroll-snap-align: center;
+}
+.stroke-red {
+  stroke: red;
+}
